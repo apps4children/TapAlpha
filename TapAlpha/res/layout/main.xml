@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/bg"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:orientation="horizontal" >
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:layout_gravity="center" >
+<Button
+android:id="@+id/new_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="New Game"/>
+<Button
+android:id="@+id/level_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Options"/>
+<Button
+android:id="@+id/score"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Score"/>
+<Button
+android:id="@+id/instruction_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Instructions"/>
+<Button
+android:id="@+id/exit_button"
+android:background="@drawable/button" 
+style="@style/ButtonText"
+android:text="Exit" />
+</LinearLayout>
+</LinearLayout>

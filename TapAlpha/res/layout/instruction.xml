@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:background="#a9d2ff">
+            
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#39A4C6">
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10sp"
+    android:background="#89CFF0" 
+    android:textSize="18sp"
+    android:textColor="#ffffff"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:text="Back"
+    android:layout_alignParentTop="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/back"
+            android:padding="10dp"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+            android:gravity="center"
+            android:typeface="sans"
+            android:textColor="#ffffff"
+            android:text="Instructions"/>
+    </RelativeLayout>
+            
+    
+        <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:padding="5dip">
+            
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Level Easy"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="Tap the alphabets in the correct sequence. There are different tiles  with the alphabets and each alphabet should be pressed in the right order only.For example first press A, then  B and C and so on. After completing one screen then go to the next screen."/>
+
+           <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Level Medium"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="Tap the alphabet that is called out. Listen to the alphabet that is called out and then press that alphabet. The alphabets are called out in a random way."/>
+
+
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Level Hard"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="Slide the boxes up and down, left and right to place the alphabets in the full sequence. Just drag the tiles with your finger and make the sequence of Alphabets.
+ Like start with tile A and then sliding the tile B next to that one and so on"/>
+           <View 
+            android:layout_width="fill_parent"
+            android:layout_height="240dp"/>
+           </LinearLayout>
+           </ScrollView>
+</LinearLayout>

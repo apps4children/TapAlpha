@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+      android:title="Options">
+  <ListPreference
+     android:entries="@array/alphaOptions"
+     android:entryValues="@array/alphaValues"
+     android:key="alpha"
+     android:summary="Select uppercase or lowercase"
+     android:title="Alphabets"/>
+ </PreferenceCategory>
+  <PreferenceCategory android:title="Back">
+       <Preference android:title="Click to Back" android:key="exitlink"/>       
+   </PreferenceCategory>   
+</PreferenceScreen>
